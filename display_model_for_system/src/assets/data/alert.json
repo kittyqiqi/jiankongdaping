@@ -1,0 +1,138 @@
+{
+	"types": [{
+		"value": "1",
+		"label":"CPU超频"
+	},{
+		"value": "2",
+		"label":"內存超額"
+	},{
+		"value": "3",
+		"label":"网络上行超限"
+	},{
+		"value": "4",
+		"label":"网络下行超限"
+	},{
+		"value": "5",
+		"label":"访问超限"
+	},{
+		"value": "6",
+		"label":"数据库超限"
+	}],
+	"status": [{
+		"value": "0",
+		"label":"未处理"
+	},{
+		"value": "1",
+		"label":"已处理"
+	}],
+	"leavel": [{
+		"value": "1",
+		"label":"提示"
+	},{
+		"value": "2",
+		"label":"警告"
+	},{
+		"value": "3",
+		"label":"重要 "
+	},{
+		"value": "4",
+		"label":"致命"
+	}],
+	"values": [{
+		"value": 40,
+		"type": "1",
+		"status": "0",
+		"leavel": "1",
+		"from": "cpu"
+	},{
+		"value": 40,
+		"type": "2",
+		"status": "1",
+		"leavel": "1",
+		"from": "cpu"
+	},{
+		"value": 40,
+		"type": "3",
+		"status": "0",
+		"leavel": "2",
+		"from": "cpu"
+	},{
+		"value": 40,
+		"type": "4",
+		"status": "1",
+		"leavel": "1",
+		"from": "cpu"
+	},{
+		"value": 40,
+		"type": "1",
+		"status": "1",
+		"leavel": "1",
+		"from": "memory"
+	},{
+		"value": 40,
+		"type": "2",
+		"status": "0",
+		"leavel": "1",
+		"from": "memory"
+	},{
+		"value": 22,
+		"type": "3",
+		"status": "1",
+		"leavel": "2",
+		"from": "memory"
+	},{
+		"value": 40,
+		"type": "4",
+		"status": "1",
+		"leavel": "3",
+		"from": "memory"
+	},{
+		"value": 40,
+		"type": "6",
+		"status": "1",
+		"leavel": "4",
+		"from": "netin"
+	},{
+		"value": 40,
+		"type": "6",
+		"status": "0",
+		"leavel": "3",
+		"from": "netin"
+	},{
+		"value": 22,
+		"type": "3",
+		"status": "1",
+		"leavel": "2",
+		"from": "netin"
+	},{
+		"value": 40,
+		"type": "4",
+		"status": "1",
+		"leavel": "4",
+		"from": "netin"
+	},{
+		"value": 40,
+		"type": "5",
+		"status": "1",
+		"leavel": "1",
+		"from": "netout"
+	},{
+		"value": 40,
+		"type": "2",
+		"status": "1",
+		"leavel": "4",
+		"from": "netout"
+	},{
+		"value": 22,
+		"type": "3",
+		"status": "5",
+		"leavel": "1",
+		"from": "netout"
+	},{
+		"value": 40,
+		"type": "4",
+		"status": "1",
+		"leavel": "2",
+		"from": "netout"
+	}]
+}
